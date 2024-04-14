@@ -1,0 +1,63 @@
+html {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:rgb(156, 190, 126)
+}
+nav {
+    border:3px solid; /*add a border with a width of 3 pixels and a solid style*/
+    border-color:beige;/*set the border color to beige*/
+    background-color: rgb(231, 208, 170); /*set the background color to blanchedalmond*/
+    padding: 5px; /* add padding of 5 pixels to the cntent inside the element*/
+}
+nav ul {
+    list-style-type: none; /*remove bullet points*/
+    margin:0 ; /*remove default margin*/
+    padding: 0; /*remove default padding*/
+}
+nav ul li {
+    display:inline; /*set the display to inline, list items appear horizontally*/
+    margin-left: 10px; /*add margin to the left side of each list item to create spacing between them*/
+    color:rgb(210, 85, 224); /*set the color of the text for list items*/
+    font-style: italic; /*set the font style to italic*/
+}
+
+nav ul li a:hover {
+    color:inherit; /*changes text color when hover*/
+    padding: 10px; /*add padding around text*/
+
+}
+#header1 { /*id selector*/
+    font-family:cursive;
+    text-shadow: 2px 2px 4px #ccae8f;
+    
+}
+#header2 {
+    text-decoration-line: overline;
+    color:#04492f
+}
+.p1 { /*class selector*/
+font-family: cursive;
+}
+.styledtable1 { /*styling of table itself*/
+    width: 100%;
+    border-collapse: collapse;
+}
+.styledtable1{
+    border: 1px solid #60006b;
+    padding: 8px;
+    text-align:center;
+}
+.styledtable1 {
+    background-color: beige;
+}
+th {
+    background-color: rgb(155, 173, 91);
+}
+tr {
+    font-weight: bold; /*text will be bolded*/
+    text-shadow: 2px 2px 4px #bdb3b3;
+}
+img {
+    border: 2px solid;
+    border-radius: 3px;
+    border-color: #031f08
+}

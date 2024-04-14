@@ -1,25 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
     <link rel="stylesheet" href="styles2.css">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
 </head>
 <body>
-    <a href="index.html"> Homepage </a> <br>
-     <a href="more.html"> Bonus Features!</a>
-   <h1> Learn Some Flower Language!</h1>
+    <div>
+        <nav> 
+            <ul>
+                <li> 
+                    <a href="index.html"> Homepage </a>  
+                </li>
+                <li>
+                    <a href="more.html"> Bonus Features!</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+  
+   <h1 id="header1"> LEARN SOME FLOWER LANGUAGE!</h1>
 <!--appropiate labeling of relative anchors across pages-->
-<h2> Check This Out!</h2>
+<h2 id="header2"> Check This Out!</h2>
 
-<p> Flowers have meaning!</p>
-<table border="1"> <!--added border to condense and make table even-->
+<p class="p1"> Flowers have meaning!</p>
+<table class="styledtable1" border="1"> <!--added border to condense and make table even-->
     <!-- first table to describe flower symbolism-->
     <tr> 
         <th> Flower </th> 
     </tr>
+   <div id="flowerbox">
     <tr> 
         <td>Lily of The Valley <img height="150px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRqBDoYb2N2NGzNLwFWeRDnBBJYHPMRF9wrA&s" alt="Lily of the valley flower"> </td>
         <td> Zinnia <img height="150px" src="https://victoryseeds.com/cdn/shop/files/thumbelinamix.jpg?v=1701409874" alt="Zinnia Flower"</td>
@@ -27,10 +39,11 @@
         <td> Dahlia <img height="150px" src="https://h2.commercev3.net/cdn.brecks.com/images/800/18234A.jpg" alt= "Dahlia Flower"</td>
     <!-- identical size images to allow reader to know what flower looks like -->
     </tr>
+   </div> 
     <tr> 
         <th> Meaning </th>
     </tr>
-    <tr> 
+    <tr id="meaning"> 
         <td> Luck</td>
         <td> Lasting affection </td>
         <td>Long life of happiness </td>
@@ -38,10 +51,10 @@
     </tr>
 
 </table>
-<h2> PST! Scroll down!</h2>
-<p> Did you think there was only going to be four examples? HA! Here is four more!</p>
+<h2 id="header2"> Scroll down!</h2>
+<p class="p1"> Did you think there was only going to be four examples? HA! Here is four more!</p>
 <!-- bonus added section to practice the code-->
-<table border="1"> <!-- second fun table!-->
+<table class="styledtable1" border="1"> <!-- second fun table!-->
     <tr>
         <th> Flower </th>
     </tr>
